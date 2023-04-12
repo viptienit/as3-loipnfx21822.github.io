@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  color: #343a40;
+  margin:  40px auto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;   
+}
+.icon {
+  height: 32px;
+  margin-top: 10px;
+  
+}
+h1 {
+  color: rgb(77, 77, 255);
+}
+
+/* màn hình lap */
+@media only screen and (min-width: 768px) {
+  .big-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+  .item {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    padding-top: 20px
+  }
+  .item4 {
+    display: flex;
+    padding-top: 30px;
+    margin-top: 10px;
+  }
+  .item4 div {
+    margin-right: 20px;
+  }
+  .item-border {
+    border-top: 1px solid #b4b4b4
+  }
+  .content {
+    border-bottom: 1px dotted #58caff;
+    margin-left: 20px;
+  }
+  .container3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+  }
+  .number-timeline {
+    background-color: #e599f7;
+    
+    margin: auto 0;
+    padding-left: 22px;
+    border-radius: 50%;
+    border: 1px solid #da34ff;
+  }
+}
+/* mÀN TABLET */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dotted #58caff
+  }
+  .item-border {
+    border-top: 1px solid #b4b4b4;
+    padding-top: 20px;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .number-timeline {
+    background-color: #e599f7;
+    
+    margin: 0 auto ;
+    padding: 8px 20px;
+    border-radius: 50%;
+    border: 1px solid #da34ff;
+  }
+  
+}
+/* màn mobile */
+@media only screen and (max-width: 600px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dotted #58caff
+  }
+  .item-border {
+    border-top: 1px solid #b4b4b4;
+    padding-top: 20px;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .number-timeline {
+    background-color: #e599f7;
+    
+    margin: 0 auto ;
+    padding: 8px 20px;
+    border-radius: 50%;
+    border: 1px solid #da34ff;
+  }
+}

@@ -34,6 +34,10 @@ p {
 .a {
     color:#343a40;
 }
+.icon  {
+     color: #228be6;
+		
+}
 /* thông tin */
 .bg-grey {
     background-color: #f5f5f5;
@@ -163,9 +167,6 @@ ul li p {
         align-items: center;
     }
     /* navbar*/
-    .icon {
-	color: #228be6;
-    }
     .a {
         box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);   
     }

@@ -13,8 +13,7 @@ body {
     line-height: 1.5;   
 }
 p {
-  color: #646464;
-  width: 1fr;      
+  color: #646464;      
 }
 
 /* ảnh giưac các thẻ */
@@ -31,6 +30,9 @@ p {
 .a:hover {
     background-color: #74c0fc;
     color: #f8f9fa;
+}
+.a {
+    color:#343a40;
 }
 /* thông tin */
 .bg-grey {
@@ -191,7 +193,6 @@ ul li p {
         padding-right: 38px;
         border-left: 1px solid #cfcfcf;
         text-decoration: none;
-        color:#343a40
     }
     /* thông tin  */
     .target {

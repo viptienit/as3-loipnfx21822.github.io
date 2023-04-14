@@ -162,11 +162,12 @@ ul li p {
         text-align: center;
         align-items: center;
     }
-    
-    
+    /* navbar*/
+    .icon {
+	color: #228be6;
+    }
     .a {
-        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
-        
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);   
     }
     #a {
         display: flex;
